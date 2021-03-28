@@ -17,8 +17,8 @@ namespace IMDB
         static void Main()
         {
             Text();var x = int.Parse(Console.ReadLine()!);
-            var z = new Interpreter();
-            Console.WriteLine(Interpreter.GenerateMovieWithRating());
+            var z = new Interpreter(){Action = 6};
+            Interpreter.WriteMain(6).ForEach(Console.WriteLine);
         }
     }
 }
