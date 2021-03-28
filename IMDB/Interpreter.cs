@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.IO;
-using System.Linq;
 using System.Text;
 namespace IMDB
 {
@@ -53,7 +51,6 @@ namespace IMDB
         public Interpreter(int action, string path,int rep) 
         {
             if (action == 5) ReadFile(path);
-            var random = new Random();
             if(action == 6) WriteMain(rep);
         }
     }

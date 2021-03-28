@@ -5,16 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bb7ef7b-4587-4244-ab5e-312dfea28855" name="Default Changelist" comment="Task n1 done(Interpreter File Writing Function)">
+      <change afterPath="$PROJECT_DIR$/IMDB.sln.DotSettings.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMDB/Sql.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/Dapper.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/runtimes/unix/lib/netstandard1.3/System.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/runtimes/win/lib/netstandard1.3/System.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/runtimes/win7-x64/native/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/runtimes/win7-x86/native/sni.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.IMDB/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IMDB/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IMDB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IMDB/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMDB/AddToDb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/AddToDb.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMDB/IMDB.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/IMDB.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMDB/Interpreter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/Interpreter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMDB/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/IMDB.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/IMDB.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/IMDB.dll" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/IMDB.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/IMDB.exe" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/IMDB.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/IMDB.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/IMDB.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/ref/IMDB.dll" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/ref/IMDB.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.dll" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/ref/IMDB.dll" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/ref/IMDB.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMDB/obj/IMDB.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/obj/IMDB.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMDB/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMDB/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMDB/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMDB/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMDB/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/text.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,9 +58,12 @@
       <option value="$PROJECT_DIR$/IMDB/AddToDb.cs" />
       <option value="$PROJECT_DIR$/IMDB/Program.cs" />
       <option value="$PROJECT_DIR$/IMDB/Interpreter.cs" />
-      <option value="$PROJECT_DIR$/IMDB/AddToDb.cs" />
-      <option value="$PROJECT_DIR$/IMDB/Interpreter.cs" />
       <option value="$PROJECT_DIR$/IMDB/Program.cs" />
+      <option value="$PROJECT_DIR$/IMDB/Interpreter.cs" />
+      <option value="$PROJECT_DIR$/IMDB/SQL.cs" />
+      <option value="$PROJECT_DIR$/IMDB/Sql.cs" />
+      <option value="$PROJECT_DIR$/IMDB/AddToDb.cs" />
+      <option value="$PROJECT_DIR$/IMDB/AddToDb.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qHO11oquOt0PsjGOP0g6EBMajZ" />
@@ -48,6 +71,8 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -55,6 +80,8 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mongo&#10;mysql" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -94,7 +121,8 @@
       <workItem from="1616909440201" duration="519000" />
       <workItem from="1616911299832" duration="1109000" />
       <workItem from="1616912430035" duration="2433000" />
-      <workItem from="1616915076229" duration="6407000" />
+      <workItem from="1616915076229" duration="17102000" />
+      <workItem from="1616935940963" duration="732000" />
     </task>
     <task id="LOCAL-00001" summary="s">
       <created>1616911391629</created>
@@ -117,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616917490905</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Task n1 done(Interpreter File Writing Function)">
+      <created>1616922369772</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616922369772</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
