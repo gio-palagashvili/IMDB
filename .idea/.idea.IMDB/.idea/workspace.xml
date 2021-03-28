@@ -4,14 +4,28 @@
     <projectFile>IMDB/IMDB.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bb7ef7b-4587-4244-ab5e-312dfea28855" name="Default Changelist" comment="" />
+    <list default="true" id="3bb7ef7b-4587-4244-ab5e-312dfea28855" name="Default Changelist" comment="s">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.IMDB/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMDB/AddToDb.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMDB/Interpreter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.IMDB/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IMDB/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.IMDB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IMDB/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMDB/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/IMDB.dll" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/IMDB.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/IMDB.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/IMDB.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/ref/IMDB.dll" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/ref/IMDB.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.dll" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/ref/IMDB.dll" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/ref/IMDB.dll" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/IMDB/Show.cs" root0="FORCE_HIGHLIGHTING" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -21,16 +35,28 @@
       <option value="$PROJECT_DIR$/IMDB/Person.cs" />
       <option value="$PROJECT_DIR$/IMDB/conn.cs" />
       <option value="$PROJECT_DIR$/IMDB/Program.cs" />
+      <option value="$PROJECT_DIR$/IMDB/Program.cs" />
+      <option value="$PROJECT_DIR$/IMDB/Interpreter.cs" />
+      <option value="$PROJECT_DIR$/IMDB/AddToDb.cs" />
+      <option value="$PROJECT_DIR$/IMDB/Program.cs" />
+      <option value="$PROJECT_DIR$/IMDB/Interpreter.cs" />
+      <option value="$PROJECT_DIR$/IMDB/AddToDb.cs" />
+      <option value="$PROJECT_DIR$/IMDB/Program.cs" />
+      <option value="$PROJECT_DIR$/IMDB/Interpreter.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qHO11oquOt0PsjGOP0g6EBMajZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mongo&#10;mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="RiderNuGetOptionsPageId" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -65,7 +91,18 @@
       <updated>1616732831240</updated>
       <workItem from="1616732835113" duration="11218000" />
       <workItem from="1616909440201" duration="519000" />
+      <workItem from="1616911299832" duration="1109000" />
+      <workItem from="1616912430035" duration="2433000" />
+      <workItem from="1616915076229" duration="1426000" />
     </task>
+    <task id="LOCAL-00001" summary="s">
+      <created>1616911391629</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616911391629</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,7 +110,21 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="s" />
+    <option name="LAST_COMMIT_MESSAGE" value="s" />
   </component>
 </project>

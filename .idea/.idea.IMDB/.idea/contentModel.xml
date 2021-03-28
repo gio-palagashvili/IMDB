@@ -5,8 +5,10 @@
     <e p="C:\Users\Gio\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_IMDB.-208230240.00" t="ExcludeRecursive" />
     <e p="C:\Users\Gio\Documents\c#\IMDb" t="IncludeFlat">
       <e p="IMDb" t="IncludeRecursive">
+        <e p="AddToDb.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="IMDB.csproj" t="IncludeRecursive" />
+        <e p="Interpreter.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="net5.0" t="Include">
