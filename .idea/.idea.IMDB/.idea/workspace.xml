@@ -4,13 +4,13 @@
     <projectFile>IMDB/IMDB.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bb7ef7b-4587-4244-ab5e-312dfea28855" name="Default Changelist" comment="Minor Changes">
+    <list default="true" id="3bb7ef7b-4587-4244-ab5e-312dfea28855" name="Default Changelist" comment="Search functionality semi-complete Name changes and top 100 functionality">
+      <change afterPath="$PROJECT_DIR$/IMDB/RateShow.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IMDB/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IMDB/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IMDB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IMDB/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMDB/AddToDb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/ManageDb.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMDB/Interpreter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/Interpreter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMDB/ManageDb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/ManageDb.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMDB/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMDB/Register.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/Register.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/IMDB.dll" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/IMDB.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/IMDB.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/IMDB.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/ref/IMDB.dll" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/ref/IMDB.dll" afterDir="false" />
@@ -18,7 +18,6 @@
       <change beforePath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.dll" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/ref/IMDB.dll" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/ref/IMDB.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMDB/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/text.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,16 +63,17 @@
       <option value="$PROJECT_DIR$/IMDB/Program.cs" />
       <option value="$PROJECT_DIR$/IMDB/Program.cs" />
       <option value="$PROJECT_DIR$/IMDB/Register.cs" />
-      <option value="$PROJECT_DIR$/IMDB/User.cs" />
-      <option value="$PROJECT_DIR$/IMDB/Sql.cs" />
       <option value="$PROJECT_DIR$/IMDB/RatingCalc.cs" />
       <option value="$PROJECT_DIR$/IMDB/Register.cs" />
       <option value="$PROJECT_DIR$/IMDB/ToDb.cs" />
       <option value="$PROJECT_DIR$/IMDB/DbRefactor.cs" />
       <option value="$PROJECT_DIR$/IMDB/AddToDb.cs" />
-      <option value="$PROJECT_DIR$/IMDB/Interpreter.cs" />
-      <option value="$PROJECT_DIR$/IMDB/ManageDb.cs" />
       <option value="$PROJECT_DIR$/IMDB/Program.cs" />
+      <option value="$PROJECT_DIR$/IMDB/Interpreter.cs" />
+      <option value="$PROJECT_DIR$/IMDB/User.cs" />
+      <option value="$PROJECT_DIR$/IMDB/Sql.cs" />
+      <option value="$PROJECT_DIR$/IMDB/RateShow.cs" />
+      <option value="$PROJECT_DIR$/IMDB/ManageDb.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qHO11oquOt0PsjGOP0g6EBMajZ" />
@@ -143,7 +143,7 @@
       <workItem from="1616996021282" duration="146000" />
       <workItem from="1616996205710" duration="8000" />
       <workItem from="1616996265452" duration="4116000" />
-      <workItem from="1617002818640" duration="9580000" />
+      <workItem from="1617002818640" duration="19511000" />
     </task>
     <task id="LOCAL-00001" summary="s">
       <created>1616911391629</created>
@@ -222,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617007203544</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Search functionality semi-complete Name changes and top 100 functionality">
+      <created>1617028847904</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1617028847904</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +261,7 @@
     <MESSAGE value="UserID Session" />
     <MESSAGE value="Minor Changs" />
     <MESSAGE value="Minor Changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor Changes" />
+    <MESSAGE value="Search functionality semi-complete Name changes and top 100 functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Search functionality semi-complete Name changes and top 100 functionality" />
   </component>
 </project>

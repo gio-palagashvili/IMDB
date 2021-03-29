@@ -41,11 +41,11 @@ namespace IMDB
             Console.WriteLine("Choose an option :");
             Console.WriteLine("1)list the top 100"); // done
             Console.WriteLine("2)Add a movie to your list"); //todo
-            Console.WriteLine("3)Rate a random movie"); //todo
+            Console.WriteLine("3)Rate a random show"); //todo
             Console.WriteLine("4)Add A movie to The Database");
             Console.WriteLine("5)Add Movies to the db with a file"); // done
             Console.WriteLine("6)write a random movie list file"); // done
-            Console.WriteLine("7)"); //todo
+            Console.WriteLine("7)My List"); //todo
             Console.WriteLine("8)search for a movie"); //partiacly done //todo allow user to rate it 
         }
 

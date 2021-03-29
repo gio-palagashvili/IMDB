@@ -20,6 +20,7 @@
           </e>
         </e>
         <e p="Program.cs" t="Include" />
+        <e p="RateShow.cs" t="Include" />
         <e p="Register.cs" t="Include" />
         <e p="SQL.cs" t="Include" />
         <e p="text.txt" t="Include" />

@@ -54,7 +54,7 @@ namespace IMDB
             if (action == 5) ReadFile(path);
             if(action == 6) WriteMain(rep);
             if (action == 1) GetTop(5);
-            if(action == 8) GetSearchRes(path);
+            if(action == 8) GetSearchResAndVote(path);
         }
     }
 
