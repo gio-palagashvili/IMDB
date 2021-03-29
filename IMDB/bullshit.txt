@@ -1,0 +1,33 @@
+﻿var sql = "INSERT INTO `movies_tbl`(`movie_name`,`movie_desc`,`movie_rating`) VALUES('" + movieName +"','" + movieDesc + "','" + movieRating + "'" + ")";
+
+
+
+
+        public Register()
+        {
+            if (AllInOne(GetIp()) == -1)
+            {
+                    string sql = "INSERT INTO user_tbl VALUES("+ "'" + GetIp() + "'" + ")";
+                    MySqlCommand cmd = new MySqlCommand(sql, conn);
+                    cmd.ExecuteNonQuery();
+            }
+        }
+        
+        
+        
+        public static int AllInOne(string ip)
+                {
+                    string sql = "select case when exists((SELECT * FROM user_tbl WHERE ip='" + ip + "'))  then 1 else 0 end";
+                    MySqlCommand cmd = new MySqlCommand(sql, conn);
+                    bool exists = (int) cmd.ExecuteScalar() == 0;
+                    if (exists)
+                    {
+                        MySqlDataReader rdr = cmd.ExecuteReader();
+                        rdr.Read();
+                        return (int)rdr[0];
+                    }
+                    else
+                    {
+                        return -1;
+                    }        
+                }
