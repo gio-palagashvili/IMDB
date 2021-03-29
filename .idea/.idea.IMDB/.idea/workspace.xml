@@ -4,23 +4,16 @@
     <projectFile>IMDB/IMDB.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bb7ef7b-4587-4244-ab5e-312dfea28855" name="Default Changelist" comment="AddToDb.cs now works as expected">
-      <change afterPath="$PROJECT_DIR$/IMDB/Register.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMDB/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.IMDB/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IMDB/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="3bb7ef7b-4587-4244-ab5e-312dfea28855" name="Default Changelist" comment="CheckIfUserExists functions properly and so does auto-register">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IMDB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IMDB/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMDB/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMDB/Sql.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/Sql.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMDB/Register.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/Register.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/IMDB.dll" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/IMDB.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/IMDB.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/IMDB.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/ref/IMDB.dll" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/ref/IMDB.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMDB/bullshit" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/bullshit.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.dll" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/ref/IMDB.dll" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/ref/IMDB.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMDB/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +117,7 @@
       <workItem from="1616995592419" duration="394000" />
       <workItem from="1616996021282" duration="146000" />
       <workItem from="1616996205710" duration="8000" />
-      <workItem from="1616996265452" duration="2050000" />
+      <workItem from="1616996265452" duration="3065000" />
     </task>
     <task id="LOCAL-00001" summary="s">
       <created>1616911391629</created>
@@ -161,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616936995166</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="CheckIfUserExists functions properly and so does auto-register">
+      <created>1616998378797</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1616998378797</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +188,7 @@
     <MESSAGE value="Added RandomString,CastAsString,GenerateMovieWithRating" />
     <MESSAGE value="Task n1 done(Interpreter File Writing Function)" />
     <MESSAGE value="AddToDb.cs now works as expected" />
-    <option name="LAST_COMMIT_MESSAGE" value="AddToDb.cs now works as expected" />
+    <MESSAGE value="CheckIfUserExists functions properly and so does auto-register" />
+    <option name="LAST_COMMIT_MESSAGE" value="CheckIfUserExists functions properly and so does auto-register" />
   </component>
 </project>

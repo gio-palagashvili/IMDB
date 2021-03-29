@@ -4,15 +4,13 @@ using System.Xml;
 
 namespace IMDB
 {
-    internal static class Program
+    internal class Program : Register
     {
-        private static string GetIp()
-        {
-            return new WebClient().DownloadString("https://ipv4.icanhazip.com/").TrimEnd();
-        }
         private static void Text()
         {
-                // Console.WriteLine("Hello User {0}",userId);
+                var k = new Register();
+                
+                Console.WriteLine("Hello User {0}", GetId());
                 Console.WriteLine("Choose an option :");
                 Console.WriteLine("1)Check-out the top 100");
                 Console.WriteLine("2)Add a movie to your list");
@@ -41,9 +39,8 @@ namespace IMDB
         }
         static void Main()
         {
-            // Text();var x = int.Parse(Console.ReadLine()!);
-            // Handler(x);
-            var k = new Register();
+            Text();var x = int.Parse(Console.ReadLine()!);
+            Handler(x);
             
         }
         }
