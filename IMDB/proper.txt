@@ -1,0 +1,12 @@
+﻿var sql = "SELECT * FROM rates_tbl WHERE user_id = @a";
+            using var conn = new MySqlConnection();
+            using var cmd = new MySqlCommand(sql, conn);
+            cmd.Parameters.AddWithValue("@a", User.Userid);
+          
+              using var rdr = cmd.ExecuteReader();
+                      while (rdr.Read())
+                      {
+                          titles.Add(rdr.GetString(1));
+                          ratings.Add(rdr.GetString(3));
+                          ids.Add(rdr.GetString(0));
+                      }

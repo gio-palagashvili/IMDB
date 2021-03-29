@@ -12,6 +12,7 @@
         <e p="IMDB.csproj" t="IncludeRecursive" />
         <e p="Interpreter.cs" t="Include" />
         <e p="ManageDb.cs" t="Include" />
+        <e p="Movie.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="net5.0" t="Include">
@@ -20,6 +21,7 @@
           </e>
         </e>
         <e p="Program.cs" t="Include" />
+        <e p="proper.txt" t="Include" />
         <e p="RateShow.cs" t="Include" />
         <e p="Register.cs" t="Include" />
         <e p="SQL.cs" t="Include" />

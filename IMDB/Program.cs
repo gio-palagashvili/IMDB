@@ -25,6 +25,9 @@ namespace IMDB
                     Console.WriteLine("file has been created");
                     k = new Interpreter(6, "", 10);
                     break;
+                case 7:
+                    k = new Interpreter(7, "", 0);
+                    break;
                 case 8:
                     Console.WriteLine("Input movie title");
                     var temp = Console.ReadLine();
@@ -39,14 +42,14 @@ namespace IMDB
             var k = new Register();
             Console.WriteLine("--------------");
             Console.WriteLine("Choose an option :");
-            Console.WriteLine("1)list the top 100"); // done
+            Console.WriteLine("1)list the top 100");
             Console.WriteLine("2)Add a movie to your list"); //todo
             Console.WriteLine("3)Rate a random show"); //todo
-            Console.WriteLine("4)Add A movie to The Database");
-            Console.WriteLine("5)Add Movies to the db with a file"); // done
-            Console.WriteLine("6)write a random movie list file"); // done
-            Console.WriteLine("7)My List"); //todo
-            Console.WriteLine("8)search for a movie"); //partiacly done //todo allow user to rate it 
+            Console.WriteLine("4)Add A movie to The Database"); // todo
+            Console.WriteLine("5)Add Movies to the db with a file");
+            Console.WriteLine("6)write a random movie list file");
+            Console.WriteLine("7)My List");
+            Console.WriteLine("8)search for a movie"); // todo update ratingHelper
         }
 
         static void Main()

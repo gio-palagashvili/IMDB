@@ -4,8 +4,9 @@
     <projectFile>IMDB/IMDB.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bb7ef7b-4587-4244-ab5e-312dfea28855" name="Default Changelist" comment="Search functionality semi-complete Name changes and top 100 functionality">
-      <change afterPath="$PROJECT_DIR$/IMDB/RateShow.cs" afterDir="false" />
+    <list default="true" id="3bb7ef7b-4587-4244-ab5e-312dfea28855" name="Default Changelist" comment="Rating, rate updates">
+      <change afterPath="$PROJECT_DIR$/IMDB/Movie.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMDB/proper.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IMDB/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IMDB/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IMDB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IMDB/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMDB/Interpreter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/Interpreter.cs" afterDir="false" />
@@ -68,11 +69,13 @@
       <option value="$PROJECT_DIR$/IMDB/ToDb.cs" />
       <option value="$PROJECT_DIR$/IMDB/DbRefactor.cs" />
       <option value="$PROJECT_DIR$/IMDB/AddToDb.cs" />
-      <option value="$PROJECT_DIR$/IMDB/Program.cs" />
-      <option value="$PROJECT_DIR$/IMDB/Interpreter.cs" />
       <option value="$PROJECT_DIR$/IMDB/User.cs" />
       <option value="$PROJECT_DIR$/IMDB/Sql.cs" />
       <option value="$PROJECT_DIR$/IMDB/RateShow.cs" />
+      <option value="$PROJECT_DIR$/IMDB/Interpreter.cs" />
+      <option value="$PROJECT_DIR$/IMDB/proper.txt" />
+      <option value="$PROJECT_DIR$/IMDB/Program.cs" />
+      <option value="$PROJECT_DIR$/IMDB/Movie.cs" />
       <option value="$PROJECT_DIR$/IMDB/ManageDb.cs" />
     </changedPaths>
   </component>
@@ -143,7 +146,7 @@
       <workItem from="1616996021282" duration="146000" />
       <workItem from="1616996205710" duration="8000" />
       <workItem from="1616996265452" duration="4116000" />
-      <workItem from="1617002818640" duration="19511000" />
+      <workItem from="1617002818640" duration="21276000" />
     </task>
     <task id="LOCAL-00001" summary="s">
       <created>1616911391629</created>
@@ -229,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617028847904</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Rating, rate updates">
+      <created>1617045810381</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1617045810381</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +272,7 @@
     <MESSAGE value="Minor Changs" />
     <MESSAGE value="Minor Changes" />
     <MESSAGE value="Search functionality semi-complete Name changes and top 100 functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="Search functionality semi-complete Name changes and top 100 functionality" />
+    <MESSAGE value="Rating, rate updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rating, rate updates" />
   </component>
 </project>

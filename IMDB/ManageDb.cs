@@ -7,8 +7,23 @@ using Ubiety.Dns.Core;
 
 namespace IMDB
 {
-    public class AddToDb : Sql
+    public class ManageDb : Sql
     {
+        private static Movie GetMovieFromIndex(string index)
+        {
+            const string sql = "SELECT * FROM movies_tbl WHERE id = @a";
+            using var conn = new MySqlConnection(ConnStr);
+            conn.Open();
+            using var cmd = new MySqlCommand(sql, conn);
+            cmd.Parameters.AddWithValue("@a",index);
+            using var rdr = cmd.ExecuteReader();
+            rdr.Read();
+            var movieName = rdr.GetString(1);
+            var movieOverAllRating = rdr.GetString(3);
+            rdr.Close();
+            conn.Close();
+            return new Movie(){MovieName = movieName,MovieOverAllRating = movieOverAllRating};
+        }
         private static void SqlInsertInto(string movieName, string movieDesc, string movieRating)
         {
             const string connStr = "server=localhost;user=root;database=imdb_db;port=3306;password=''";
@@ -27,7 +42,6 @@ namespace IMDB
                 Console.WriteLine(e.ToString());
             }
         }
-
         protected static void ReadFile(string path)
         {
             var line = "";
@@ -37,7 +51,6 @@ namespace IMDB
                 SqlInsertInto(line.Split("/")[0], line.Split("/")[2], line.Split("/")[1]);
             }
         }
-
         protected static void GetTop(int limit)
         {
             var result = new List<string>();
@@ -62,7 +75,6 @@ namespace IMDB
 
             conn.Close();
         }
-
         private static bool CheckIfRated(string movieId)
         {
             using var conn = new MySqlConnection(ConnStr);
@@ -89,7 +101,6 @@ namespace IMDB
             }
             return false;
         }
-
         protected static void GetSearchResAndVote(string term)
         {
             var titles = new List<string>();
@@ -144,6 +155,30 @@ namespace IMDB
                 }
             }
 
+            conn.Close();
+        }
+        protected static void MyList()
+        {
+            var ids = new List<Movie>();
+            const string sql = "SELECT * FROM rates_tbl WHERE user_id = @a";
+            using var conn = new MySqlConnection(ConnStr);
+            conn.Open();
+            using var cmd = new MySqlCommand(sql, conn);
+            cmd.Parameters.AddWithValue("@a", User.Userid);
+            using var rdr = cmd.ExecuteReader();
+            while (rdr.Read())
+            {
+                ids.Add(
+                    new Movie() {MovieId = rdr.GetString(0),MovieUserRating = rdr.GetString(2)}
+                    );
+            }
+            rdr.Close();
+            Movie z;
+            foreach (var x in ids)
+            {
+                z = GetMovieFromIndex(x.MovieId);
+                Console.WriteLine($"{z.MovieName} | User Rating : {x.MovieUserRating} | overall rating : {z.MovieOverAllRating}");
+            }
             conn.Close();
         }
     }
