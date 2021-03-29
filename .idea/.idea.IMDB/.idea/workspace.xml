@@ -4,15 +4,8 @@
     <projectFile>IMDB/IMDB.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bb7ef7b-4587-4244-ab5e-312dfea28855" name="Default Changelist" comment="CheckIfUserExists functions properly and so does auto-register(fix)">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.IMDB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IMDB/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3bb7ef7b-4587-4244-ab5e-312dfea28855" name="Default Changelist" comment="UserID Session">
       <change beforePath="$PROJECT_DIR$/IMDB/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMDB/Register.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/Register.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMDB/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/IMDB.dll" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/IMDB.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/IMDB.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/IMDB.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.dll" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +49,7 @@
       <option value="$PROJECT_DIR$/IMDB/User.cs" />
       <option value="$PROJECT_DIR$/IMDB/Register.cs" />
       <option value="$PROJECT_DIR$/IMDB/Program.cs" />
+      <option value="$PROJECT_DIR$/IMDB/Sql.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qHO11oquOt0PsjGOP0g6EBMajZ" />
@@ -119,7 +113,7 @@
       <workItem from="1616996021282" duration="146000" />
       <workItem from="1616996205710" duration="8000" />
       <workItem from="1616996265452" duration="4116000" />
-      <workItem from="1617002818640" duration="1236000" />
+      <workItem from="1617002818640" duration="1603000" />
     </task>
     <task id="LOCAL-00001" summary="s">
       <created>1616911391629</created>
@@ -170,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616999493036</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="UserID Session">
+      <created>1617006777020</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1617006777020</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +200,7 @@
     <MESSAGE value="AddToDb.cs now works as expected" />
     <MESSAGE value="CheckIfUserExists functions properly and so does auto-register" />
     <MESSAGE value="CheckIfUserExists functions properly and so does auto-register(fix)" />
-    <option name="LAST_COMMIT_MESSAGE" value="CheckIfUserExists functions properly and so does auto-register(fix)" />
+    <MESSAGE value="UserID Session" />
+    <option name="LAST_COMMIT_MESSAGE" value="UserID Session" />
   </component>
 </project>
