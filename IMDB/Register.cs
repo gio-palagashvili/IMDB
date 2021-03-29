@@ -1,18 +1,17 @@
 ﻿using System;
-using System.IO;
 using System.Net;
 using MySql.Data.MySqlClient;
 
+// ReSharper disable all ClassNeverInstantiated.Global
 namespace IMDB
 {
-    // ReSharper disable all ClassNeverInstantiated.Global
     internal class Register : Sql
     {
         static MySqlConnection conn = new MySqlConnection(ConnStr);
         public Register()
         {
           conn.Open();
-
+          //login handled here
           static void CheckIfUserExists(string ip)
           {
               string sql = "select case when exists((SELECT * FROM user_tbl WHERE ip='" + ip + "'))  then 1 else 0 end";
@@ -20,6 +19,7 @@ namespace IMDB
               bool exists = (int) cmd.ExecuteScalar() == 1;
               if (exists)
               {
+                  //Auto Login
                   User.Userid = GetId();
               }
               else
@@ -32,6 +32,7 @@ namespace IMDB
               }
           }
           CheckIfUserExists(GetIp());
+          conn.Close();
         }
         public static string GetIp()
         {

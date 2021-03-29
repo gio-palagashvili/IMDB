@@ -50,8 +50,11 @@ namespace IMDB
         }
         public Interpreter(int action, string path,int rep) 
         {
+            // ReSharper disable once ConvertIfStatementToSwitchStatement
             if (action == 5) ReadFile(path);
             if(action == 6) WriteMain(rep);
+            if (action == 1) GetTop(5);
+            if(action == 8) GetSearchRes(path);
         }
     }
 
