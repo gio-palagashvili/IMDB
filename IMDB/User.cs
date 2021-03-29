@@ -1,10 +1,8 @@
 ﻿namespace IMDB
 {
-    public class User
+    // ReSharper disable all UnusedType.Global
+    public static class User
     {
-        public int Userid {get;set;}
-        public User()
-        {
-        }
+        public static int Userid {get;set;}
     }
 }

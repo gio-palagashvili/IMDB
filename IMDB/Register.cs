@@ -20,6 +20,7 @@ namespace IMDB
               bool exists = (int) cmd.ExecuteScalar() == 1;
               if (exists)
               {
+                  User.Userid = GetId();
               }
               else
               {
@@ -36,13 +37,13 @@ namespace IMDB
         {
          return new WebClient().DownloadString("https://ipv4.icanhazip.com/").TrimEnd();
         }
-        public static string GetId()
+        public static int GetId()
         {
-            string sql2 = "SELECT * FROM user_tbl WHERE ip='" + GetIp() + "'";
+            string sql2 = "SELECT * FROM user_tbl WHERE ip="+ "'" + GetIp() + "'" +"";
             MySqlCommand cmd1 = new MySqlCommand(sql2, conn);
             MySqlDataReader rdr = cmd1.ExecuteReader();
             rdr.Read();
-            return (string) rdr[0];
+            return (int) rdr[0];
         }
     }
 }

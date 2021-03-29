@@ -10,7 +10,6 @@ namespace IMDB
         {
                 var k = new Register();
                 
-                Console.WriteLine("Hello User {0}", GetId());
                 Console.WriteLine("Choose an option :");
                 Console.WriteLine("1)Check-out the top 100");
                 Console.WriteLine("2)Add a movie to your list");
@@ -41,7 +40,6 @@ namespace IMDB
         {
             Text();var x = int.Parse(Console.ReadLine()!);
             Handler(x);
-            
         }
         }
     }
