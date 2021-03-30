@@ -4,18 +4,15 @@
     <projectFile>IMDB/IMDB.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bb7ef7b-4587-4244-ab5e-312dfea28855" name="Default Changelist" comment="Rating, rate updates">
-      <change afterPath="$PROJECT_DIR$/IMDB/Movie.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMDB/proper.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.IMDB/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IMDB/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="3bb7ef7b-4587-4244-ab5e-312dfea28855" name="Default Changelist" comment="7)My list is now working and displays the users list with user rating and overall rating">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IMDB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IMDB/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMDB/Interpreter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/Interpreter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMDB/ManageDb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/ManageDb.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMDB/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMDB/RateShow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/RateShow.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/IMDB.dll" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/IMDB.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/IMDB.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/IMDB.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/ref/IMDB.dll" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/bin/Debug/net5.0/ref/IMDB.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.dll" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/IMDB.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/ref/IMDB.dll" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB/obj/Debug/net5.0/ref/IMDB.dll" afterDir="false" />
@@ -27,11 +24,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/Gio/Documents/c#/IMDB/IMDB/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Gio/Documents/c#/IMDB/IMDB/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Gio/Documents/c#/IMDB/IMDB/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -74,8 +66,12 @@
       <option value="$PROJECT_DIR$/IMDB/RateShow.cs" />
       <option value="$PROJECT_DIR$/IMDB/Interpreter.cs" />
       <option value="$PROJECT_DIR$/IMDB/proper.txt" />
-      <option value="$PROJECT_DIR$/IMDB/Program.cs" />
       <option value="$PROJECT_DIR$/IMDB/Movie.cs" />
+      <option value="$PROJECT_DIR$/IMDB/ManageDb.cs" />
+      <option value="$PROJECT_DIR$/IMDB/Program.cs" />
+      <option value="$PROJECT_DIR$/IMDB/RateShow.cs" />
+      <option value="$PROJECT_DIR$/IMDB/Interpreter.cs" />
+      <option value="$PROJECT_DIR$/IMDB/Program.cs" />
       <option value="$PROJECT_DIR$/IMDB/ManageDb.cs" />
     </changedPaths>
   </component>
@@ -146,7 +142,8 @@
       <workItem from="1616996021282" duration="146000" />
       <workItem from="1616996205710" duration="8000" />
       <workItem from="1616996265452" duration="4116000" />
-      <workItem from="1617002818640" duration="21276000" />
+      <workItem from="1617002818640" duration="21849000" />
+      <workItem from="1617100255772" duration="11123000" />
     </task>
     <task id="LOCAL-00001" summary="s">
       <created>1616911391629</created>
@@ -239,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617045810381</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="7)My list is now working and displays the users list with user rating and overall rating">
+      <created>1617047753379</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1617047753379</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +277,7 @@
     <MESSAGE value="Minor Changes" />
     <MESSAGE value="Search functionality semi-complete Name changes and top 100 functionality" />
     <MESSAGE value="Rating, rate updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rating, rate updates" />
+    <MESSAGE value="7)My list is now working and displays the users list with user rating and overall rating" />
+    <option name="LAST_COMMIT_MESSAGE" value="7)My list is now working and displays the users list with user rating and overall rating" />
   </component>
 </project>

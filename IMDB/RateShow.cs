@@ -6,7 +6,6 @@ namespace IMDB
     public static class RateShow
     {
         private const string ConnStr = "server=localhost;user=root;database=imdb_db;port=3306;password=''";
-        public static void Calc(){}
         public static void Rate(string id,string rating)
         {
             if (int.Parse(rating) > 10 )
@@ -27,7 +26,6 @@ namespace IMDB
                 conn.Close();
             }
         }
-
         public static void RateUpdate(string id, string rating)
         {
             if (int.Parse(rating) > 10 )
@@ -48,7 +46,7 @@ namespace IMDB
                 conn.Close();
             }
         }
-
+        public static void Calc(){}
         private static void RatingHelper(string id){}
     }
 }

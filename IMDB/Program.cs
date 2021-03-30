@@ -16,6 +16,15 @@ namespace IMDB
                 case 1:
                     k = new Interpreter(1, "", 0);
                     break;
+                case 2:
+                    k = new Interpreter(2, "", 0);
+                    break;
+                case 3:
+                    k = new Interpreter(3, "", 0);
+                    break;
+                case 4:
+                    k = new Interpreter(4, "", 0);
+                    break;
                 case 5:
                     Console.WriteLine("input the path of the file");
                     var path = Console.ReadLine();
@@ -43,13 +52,14 @@ namespace IMDB
             Console.WriteLine("--------------");
             Console.WriteLine("Choose an option :");
             Console.WriteLine("1)list the top 100");
-            Console.WriteLine("2)Add a movie to your list"); //todo
-            Console.WriteLine("3)Rate a random show"); //todo
-            Console.WriteLine("4)Add A movie to The Database"); // todo
+            // Console.WriteLine("2)Add a movie to your list (add via search this is temp)");
+            Console.WriteLine("3)Rate a random show");
+            Console.WriteLine("4)Add A movie to The Database (only for admins)"); 
             Console.WriteLine("5)Add Movies to the db with a file");
             Console.WriteLine("6)write a random movie list file");
             Console.WriteLine("7)My List");
-            Console.WriteLine("8)search for a movie"); // todo update ratingHelper
+            Console.WriteLine("8)search for a movie");
+            //todo main udpate on each rating
         }
 
         static void Main()
@@ -65,6 +75,7 @@ namespace IMDB
                 catch (System.FormatException)
                 {
                     Console.WriteLine("invalid input");
+                    Console.ReadKey();
                 }
             }
         }
