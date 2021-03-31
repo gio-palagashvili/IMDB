@@ -87,16 +87,31 @@ namespace IMDB
             return new Movie() {MovieName = movieName, MovieOverAllRating = movieOverAllRating};
         }
 
-        protected static void ReArrangeDb(string id)
+        protected static void EstablishShowRating(string id)
         {
-            const string sql = "SELECT * FROM movies_tbl WHERE id = @a";
+            const string sql = "SELECT * FROM rates_tbl WHERE movie_id = @a";
             using var conn = new MySqlConnection(ConnStr);
             conn.Open();
+            
             using var cmd = new MySqlCommand(sql, conn);
             cmd.Parameters.AddWithValue("@a", id);
             using var rdr = cmd.ExecuteReader();
-            rdr.Read();
-            Console.WriteLine(rdr.GetString(1));            
+            int ratesSum = 0;
+            int ratesAmount = 0;
+            
+            while (rdr.Read())
+            {
+                ratesAmount++;
+                ratesSum += int.Parse(rdr.GetString(2));
+            }
+            rdr.Close();
+            
+            var rating = (ratesSum / ratesAmount).ToString();
+            const string sqlUpdate = "UPDATE movies_tbl SET movie_rating = @movieRating WHERE id = @id";
+            using var cmdUpdate = new MySqlCommand(sqlUpdate, conn);
+            cmdUpdate.Parameters.AddWithValue("@movieRating", rating);
+            cmdUpdate.Parameters.AddWithValue("@id", id);
+            cmdUpdate.ExecuteNonQuery();
         } 
         private static void SqlInsertInto(string movieName, string movieDesc, string movieRating)
         {

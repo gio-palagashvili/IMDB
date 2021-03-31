@@ -3,9 +3,9 @@ using MySql.Data.MySqlClient;
 
 namespace IMDB
 {
-    public static class RateShow
+    public class RateShow : ManageDb
     {
-        private const string ConnStr = "server=localhost;user=root;database=imdb_db;port=3306;password=''";
+        private new const string ConnStr = "server=localhost;user=root;database=imdb_db;port=3306;password=''";
         public static void Rate(string id,string rating)
         {
             if (int.Parse(rating) > 10 )
@@ -25,6 +25,7 @@ namespace IMDB
                 cmd.ExecuteNonQuery();
                 conn.Close();
             }
+            EstablishShowRating(id);
         }
         public static void RateUpdate(string id, string rating)
         {

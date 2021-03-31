@@ -52,7 +52,7 @@ namespace IMDB
         {
             // ReSharper disable once ConvertIfStatementToSwitchStatement
             if (action == 1) GetTop(5);
-            if (action == 2) ReArrangeDb("11");
+            if (action == 2) EstablishShowRating("11");
             if (action == 3) GetRandomMovieAndRate();
             if (action == 4) InsertInto();
             if (action == 5) ReadFileAndInsert(path);
